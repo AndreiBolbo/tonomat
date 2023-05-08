@@ -1,0 +1,8 @@
+# ninja log v5
+3	1589	7052907492892514	CMakeFiles/untitled7.dir/main.cpp.obj	80936996df9c007b
+16	1618	7052907493303659	CMakeFiles/untitled7.dir/Produs.cpp.obj	4c64251d035978f2
+1606	2635	7052907503048038	CMakeFiles/untitled7.dir/tests.cpp.obj	cd42494c41f7ec78
+1592	2781	7052907505494595	CMakeFiles/untitled7.dir/Repo.cpp.obj	eb1881cb4c25dc41
+2818	3152	7052907509204547	untitled7.exe	51ba6426b49787de
+29	1604	7052907492853474	CMakeFiles/untitled7.dir/Service.cpp.obj	6bcdc6d599634350
+1619	2818	7052907505865375	CMakeFiles/untitled7.dir/Ui.cpp.obj	9afacfb57d1ffea9

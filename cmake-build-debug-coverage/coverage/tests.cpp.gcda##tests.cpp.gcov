@@ -1,0 +1,253 @@
+        -:    0:Source:C:/Users/MSI/CLionProjects/untitled7/tests.cpp
+        -:    0:Graph:C:\Users\MSI\CLionProjects\untitled7\cmake-build-debug-coverage\CMakeFiles\untitled7.dir\tests.cpp.gcno
+        -:    0:Data:C:\Users\MSI\CLionProjects\untitled7\cmake-build-debug-coverage\CMakeFiles\untitled7.dir\tests.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by MSI on 20/04/2022.
+        -:    3://
+        -:    4:
+        -:    5:#include "tests.h"
+        -:    6:#include "Produs.h"
+        -:    7:#include "Repo.h"
+        -:    8:#include "cstring"
+        -:    9:#include "cassert"
+function _Z11test_produsv called 1 returned 100% blocks executed 68%
+        1:   10:void test_produs()
+        1:   10-block  0
+        -:   11:{
+        1:   12:    char *nume = new char[20];
+        1:   12-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   13:    strcpy(nume, "Pop cola");
+        1:   14:    PrType type= suc;
+        2:   15:    Produs p(12,nume,4,type);
+        1:   15-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    %%%%%:   15-block  1
+call    4 never executed
+        1:   16:    assert(p.getPret() ==4);
+        1:   16-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   16-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    $$$$$:   16-block  2
+call    5 never executed
+        1:   17:    assert(p.getCod() ==12);
+        1:   17-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   17-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    $$$$$:   17-block  2
+call    5 never executed
+        1:   18:    assert(strcmp(p.getnume(),nume)==0);
+        1:   18-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   18-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    $$$$$:   18-block  2
+call    5 never executed
+        1:   19:    char *num = new char[20];
+        1:   19-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   20:    strcpy(num, "Coca cola");
+        2:   21:    Produs t(10,num,3, type);
+        1:   21-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   21-block  1
+call    3 returned 1
+    %%%%%:   21-block  2
+call    4 never executed
+        1:   22:    assert(p.get_prdct()==2);
+        1:   22-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   22-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    $$$$$:   22-block  2
+call    5 never executed
+        1:   23:    assert(strcmp(p.getnume(),nume)==0);
+        1:   23-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   23-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    $$$$$:   23-block  2
+call    5 never executed
+        1:   24:    assert(t.getPret()==3);
+        1:   24-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   24-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    $$$$$:   24-block  2
+call    5 never executed
+        1:   25:    t.setPret(3.5);
+        1:   25-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   26:    assert(t.getPret()==3);
+        1:   26-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   26-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    $$$$$:   26-block  2
+call    5 never executed
+        1:   27:}
+function _Z9test_repov called 1 returned 100% blocks executed 63%
+        1:   28:void test_repo()
+        1:   28-block  0
+        -:   29:{
+        1:   30:    char *nume = new char[20];
+        1:   30-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   31:    strcpy(nume, "Pop cola");
+        1:   32:    PrType type= suc;
+        2:   33:    Produs p(12,nume,4,type);
+        1:   33-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    %%%%%:   33-block  1
+call    4 never executed
+        1:   34:    char *num = new char[20];
+        1:   34-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   35:    strcpy(num, "Coca cola");
+        2:   36:    Produs t(10,num,3, type);
+        1:   36-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    %%%%%:   36-block  1
+call    4 never executed
+        2:   37:    Repo repo;
+        1:   37-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    %%%%%:   37-block  1
+call    4 never executed
+        1:   38:    repo.add_item(p);
+        1:   38-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   39:    assert(repo.get_size()==1);
+        1:   39-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   39-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    $$$$$:   39-block  2
+call    5 never executed
+        1:   40:    assert(repo.get_item_poz(0).getPret()==4);
+        1:   40-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   40-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   40-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 1
+    $$$$$:   40-block  3
+call    8 never executed
+        1:   40-block  4
+call    9 returned 1
+    %%%%%:   40-block  5
+call   10 never executed
+        1:   41:    repo.add_item(t);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   42:    assert(repo.get_size()==2);
+        1:   42-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   42-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    $$$$$:   42-block  2
+call    5 never executed
+        1:   43:    assert(strcmp(repo.get_item_poz(1).getnume(),num)==0);
+        1:   43-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   43-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   43-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 1
+    $$$$$:   43-block  3
+call    8 never executed
+        1:   43-block  4
+call    9 returned 1
+    %%%%%:   43-block  5
+call   10 never executed
+        1:   44:}
+function _Z8test_allv called 1 returned 100% blocks executed 100%
+        1:   45:void test_all()
+        1:   45-block  0
+        -:   46:{
+        1:   47:    test_produs();
+        1:   47-block  0
+call    0 returned 1
+        1:   48:    test_repo();
+call    0 returned 1
+function _GLOBAL__sub_I__Z11test_produsv called 1 returned 100% blocks executed 100%
+function _Z41__static_initialization_and_destruction_0ii called 1 returned 100% blocks executed 100%
+        4:   49:}
+        1:   49-block  0
+        1:   49-block  1
+call    0 returned 1
+        1:   49-block  2
+        1:   49-block  3
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0
+        1:   49-block  4
+branch  3 taken 1 (fallthrough)
+branch  4 taken 0

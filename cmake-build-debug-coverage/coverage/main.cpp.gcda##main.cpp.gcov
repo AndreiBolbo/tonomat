@@ -1,0 +1,27 @@
+        -:    0:Source:C:/Users/MSI/CLionProjects/untitled7/main.cpp
+        -:    0:Graph:C:\Users\MSI\CLionProjects\untitled7\cmake-build-debug-coverage\CMakeFiles\untitled7.dir\main.cpp.gcno
+        -:    0:Data:C:\Users\MSI\CLionProjects\untitled7\cmake-build-debug-coverage\CMakeFiles\untitled7.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include <iostream>
+        -:    2:#include "tests.h"
+function main called 1 returned 100% blocks executed 100%
+        1:    3:int main() {
+        1:    3-block  0
+        1:    4:   test_all();
+        1:    4-block  0
+call    0 returned 1
+        1:    5:    return 0;
+function _GLOBAL__sub_I_main called 1 returned 100% blocks executed 100%
+function _Z41__static_initialization_and_destruction_0ii called 1 returned 100% blocks executed 100%
+        4:    6:}
+        1:    6-block  0
+        1:    6-block  1
+call    0 returned 1
+        1:    6-block  2
+        1:    6-block  3
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0
+        1:    6-block  4
+branch  3 taken 1 (fallthrough)
+branch  4 taken 0

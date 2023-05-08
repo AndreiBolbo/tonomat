@@ -1,0 +1,57 @@
+        -:    0:Source:C:/Users/MSI/CLionProjects/untitled7/Repo.cpp
+        -:    0:Graph:C:\Users\MSI\CLionProjects\untitled7\cmake-build-debug-coverage\CMakeFiles\untitled7.dir\Repo.cpp.gcno
+        -:    0:Data:C:\Users\MSI\CLionProjects\untitled7\cmake-build-debug-coverage\CMakeFiles\untitled7.dir\Repo.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by MSI on 20/04/2022.
+        -:    3://
+        -:    4:
+        -:    5:#include "Repo.h"
+        -:    6:Repo::Repo() = default;
+        -:    7:
+function _ZN4Repo8get_sizeEv called 2 returned 100% blocks executed 100%
+        2:    8: unsigned int Repo::get_size() {
+        2:    8-block  0
+        2:    9:    return produse.size();
+        2:    9-block  0
+call    0 returned 2
+        -:   10:}
+        -:   11:
+function _ZN4Repo7get_allEv called 0 returned 0% blocks executed 0%
+    #####:   12:vector<Produs> Repo::get_all() {
+    $$$$$:   12-block  0
+    #####:   13:    return produse;
+    $$$$$:   13-block  0
+call    0 never executed
+        -:   14:}
+        -:   15:
+function _ZN4Repo8add_itemER6Produs called 2 returned 100% blocks executed 100%
+        2:   16:void Repo::add_item(Produs &p) {
+        2:   16-block  0
+        2:   17:    produse.push_back(p);
+        2:   17-block  0
+call    0 returned 2
+        2:   18:}
+        -:   19:
+function _ZN4Repo12get_item_pozEi called 2 returned 100% blocks executed 100%
+        2:   20:Produs Repo::get_item_poz(int poz) {
+        2:   20-block  0
+        2:   21:    return produse[poz];
+        2:   21-block  0
+call    0 returned 2
+call    1 returned 2
+        -:   22:}
+function _GLOBAL__sub_I__ZN4RepoC2Ev called 1 returned 100% blocks executed 100%
+function _Z41__static_initialization_and_destruction_0ii called 1 returned 100% blocks executed 100%
+        4:   23:Repo::~Repo() =default;
+        1:   23-block  0
+        1:   23-block  1
+call    0 returned 1
+        1:   23-block  2
+        1:   23-block  3
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0
+        1:   23-block  4
+branch  3 taken 1 (fallthrough)
+branch  4 taken 0

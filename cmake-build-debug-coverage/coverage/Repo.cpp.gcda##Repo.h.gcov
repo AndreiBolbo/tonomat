@@ -1,0 +1,37 @@
+        -:    0:Source:C:/Users/MSI/CLionProjects/untitled7/Repo.h
+        -:    0:Graph:C:\Users\MSI\CLionProjects\untitled7\cmake-build-debug-coverage\CMakeFiles\untitled7.dir\Repo.cpp.gcno
+        -:    0:Data:C:\Users\MSI\CLionProjects\untitled7\cmake-build-debug-coverage\CMakeFiles\untitled7.dir\Repo.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by MSI on 20/04/2022.
+        -:    3://
+        -:    4:
+        -:    5:#ifndef UNTITLED7_REPO_H
+        -:    6:#define UNTITLED7_REPO_H
+        -:    7:
+        -:    8:#include "vector"
+        -:    9:#include "Produs.h"
+        -:   10:using namespace std;
+function _ZN4RepoD2Ev called 1 returned 100% blocks executed 100%
+function _ZN4RepoC2Ev called 1 returned 100% blocks executed 100%
+        4:   11:class Repo {
+        1:   11-block  0
+        1:   11-block  1
+call    0 returned 1
+        1:   11-block  2
+        1:   11-block  3
+call    1 returned 1
+        -:   12:private:
+        -:   13:    vector<Produs> produse;
+        -:   14:public:
+        -:   15:    Repo();
+        -:   16:    ~Repo();
+        -:   17:    void add_item(Produs &p);
+        -:   18:    unsigned int get_size();
+        -:   19:    Produs get_item_poz(int poz);
+        -:   20:    vector<Produs> get_all();
+        -:   21:};
+        -:   22:
+        -:   23:
+        -:   24:#endif //UNTITLED7_REPO_H
